@@ -1,0 +1,49 @@
+#float-menu-main{
+    gap: 6vh;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    margin-top: 44vh;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.float-menu{
+    height: 12vh;
+    width: 25vw;
+    background-color:white;
+    box-shadow: 0 0 2vh grey;
+    display: flex;
+}
+#p1{
+    height: 12vh;
+    width: 15vw;
+    align-items: center;
+    display: flex;
+    padding: 0 2vh;
+   
+}
+#p1>ul>li{
+    list-style: none;
+}
+
+#p2{
+    height: 12VH;
+    width: 10VW;
+    padding: 0 2vh;
+    display: flex;
+    align-items: center;
+}
+#p2>ul>li{
+    list-style: none;
+    color: #0c5397;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+
+
+
+

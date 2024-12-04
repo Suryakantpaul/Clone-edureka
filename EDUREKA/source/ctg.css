@@ -1,0 +1,38 @@
+#category{
+    height: 90vh;
+    width: 100vw;
+    background-color: white;
+
+}
+.margin{
+    margin-left: 6.5vw;
+}
+.ctg{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    display: inline-block;
+    height: 40vh;
+    width: 18.7vw;
+    box-shadow: 0 0 1vh grey;
+
+}
+
+.h1-course{ 
+    background: linear-gradient(242deg, #f49cae, #b05ce2);
+    height: 18vh;
+    width: 18.7vw;
+}
+
+.h2-course{ 
+    height: 22vh;
+    width: 18.7vw;
+}
+
+.icon{
+    height: 18vh;
+    width: 4vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

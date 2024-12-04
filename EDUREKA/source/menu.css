@@ -1,0 +1,86 @@
+/* Drop-down-course */
+#drop-down-coures{
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drop-down-coures>ul>li{
+    list-style: none;
+    
+}
+#drop-down-coures>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+}
+#drop-down-coures>ul>li:hover#submenu1{
+    display: block;
+}
+#submenu1{
+    position:absolute;
+    top:0;
+    margin-top: 14vh;
+    background-color: #a6a6a6;
+    width:18vw;
+    }
+#submenu1>li{
+    list-style:none;
+    display:block;
+    background-color:#f4f5f7;
+}
+#submenu1>li>a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    padding: 7px 25px;
+    white-space: normal;
+}
+#submenu1>li:hover{
+    background-color: #248de4;
+    color: white;
+}
+
+#submenu1>li>a:hover{
+    color: white;
+}
+
+/* Course Category */
+#align-cate{
+    height: 6vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#align-cate>ul>li{
+    list-style: none;
+    display: inline-block;
+    
+}
+#align-cate>ul>li>a{
+    color: #646363;
+    text-decoration: none;
+    padding: 1vh 1vw;
+
+}
+#align-cate>ul>li>a:hover{
+    background-color: #d3d3d3;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* burger menu */
+#three-dot-drop-down{
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

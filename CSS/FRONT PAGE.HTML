@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{margin:0;padding:0;box-sizing:border-box;}
+            #main{height:100vh;width:100vw;background-color:gray;}
+            #menu{height:10vh;width:100vw;background-color:yellow;display:flex;
+            align-items:center;}
+
+            #topmenu>li{list-style:none;display:inline-block;background-color:pink;
+            padding:2vh 0vw;}
+
+            #topmenu>li>a{padding:2vh 3vw;text-decoration:none;}
+            #topmenu>li:hover{background-color:purple;}
+            #topmenu>li>a:hover{color:white;}
+
+            #submenu{position:absolute;background-color:yellow;margin-top:2.1vh;width:15vw;}
+            #submenu>li{list-style:none;display:block;background-color:pink;
+                padding:2vh 0vw;margin-bottom:1vh;}
+    
+                #submenu>li>a{padding:2vh 3vw;text-decoration:none;}
+                #submenu>li:hover{background-color:purple;}
+                #submenu>li>a:hover{color:white;}
+
+                #submenu1{position:absolute;background-color:yellow;margin-left:15.1vw;width:20vw;top:0;}
+                #submenu1>li{list-style:none;display:block;background-color:pink;
+                    padding:2vh 0vw;margin-bottom:1vh;}
+        
+                    #submenu1>li>a{padding:2vh 3vw;text-decoration:none;}
+                    #submenu1>li:hover{background-color:purple;}
+                    #submenu1>li>a:hover{color:white;}
+                #submenu,#submenu1{display:none;}
+                #topmenu>li:hover>#submenu{display:block;}
+                #submenu>li:hover>#submenu1{display:block;}
+        </style>
+    </head>
+    <body>
+       <div id="main">
+            <div id="menu">
+                <ul id="topmenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About &#9660;</a>
+                        <ul id="submenu">
+                            <li><a href="">Our Mission</a></li>
+                            <li><a href="">AIM</a></li>
+                            <li><a href="">Courses &#9658;</a>
+                                <ul id="submenu1">
+                                    <li><a href="">PHP</a></li>
+                                    <li><a href="">PYTHON</a></li>
+                                    <li><a href="">Fullstack using Mern</a></li>
+                                    <li><a href="">Cyber Security</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Services &#9658;</a>
+                                <ul id="submenu1">
+                                    <li><a href="">Digital</a></li>
+                                    <li><a href="">App</a></li>
+                                    <li><a href="">Website</a></li>
+                                    <li><a href="">Cyber Security</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </div>
+       </div>
+    </body>
+</html>
